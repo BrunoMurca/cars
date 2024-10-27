@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Site Exemplo</title>
+        <link rel="stylesheet" href="/css/styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    </head>
+    
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <img src="imagens/logo.svg" alt="Logomarca">
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Sobre-nós</a></li>
+                    <li><a href="#">Estoque</a></li>
+                    <li><a href="#">Cars</a></li>
+                    <li><a href="#">Cuidados</a></li>
+                    <li><a href="#">Contatos</a></li>
+                </ul>
+            </nav>
+            <div class="phone">(31) 98440-9878</div>
+        </div>
+    </header>
+
+   <!-- Slider Container -->
+<div class="slider-container">
+    <!-- Título no lado esquerdo -->
+    <div class="slider-title">
+        <h1>BYD carros elétricos</h1>
+        <p class="sub">Adicione uma breve descrição se necessário.</p>
+    </div>
+
+    <!-- Slider de Imagens -->
+    <div class="slider">
+        <div class="slides">
+            <div class="slide">
+                <img src="slider/side.webp" alt="Imagem 1">
+            </div>
+            <div class="slide">
+                <img src="slider/front.webp" alt="Imagem 2">
+            </div>
+            <div class="slide">
+                <img src="slider/back.webp" alt="Imagem 3">
+            </div>
+        </div>
+        <div class="navigation">
+            <button class="nav-btn" onclick="showSlide(0)">1</button>
+            <button class="nav-btn" onclick="showSlide(1)">2</button>
+            <button class="nav-btn" onclick="showSlide(2)">3</button>
+        </div>
+    </div>
+</div>
+
+<div class="content">
+    <h2>Título</h2>
+    <h2>Adicione uma breve descrição se necessário.</h2>
+    <div class="image-gallery">
+        <!-- Cada "car-card" representa um carro com imagem, título e descrição -->
+        <div class="car-card">
+            <img src="slider/front.webp" alt="Carro 1" class="gallery-item">
+            <h3>Carro 1</h3>
+            <p>Descrição breve do Carro 1.</p>
+        </div>
+        <div class="car-card">
+            <img src="slider/back.webp" alt="Carro 2" class="gallery-item">
+            <h3>Carro 2</h3>
+            <p>Descrição breve do Carro 2.</p>
+        </div>
+        <div class="car-card">
+            <img src="slider/side.webp" alt="Carro 3" class="gallery-item">
+            <h3>Carro 3</h3>
+            <p>Descrição breve do Carro 3.</p>
+        </div>
+        <div class="car-card">
+            <img src="slider/front.webp" alt="Carro 4" class="gallery-item">
+            <h3>Carro 4</h3>
+            <p>Descrição breve do Carro 4.</p>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="footer-content">
+        <!-- Container para o Logo -->
+        <div class="footer-logo">
+            <img src="imagens/logo-sc.webp" alt="Logomarca" class="logo-footer">
+        </div>
+
+        <!-- Container para direitos autorais -->
+        <div class="footer-rights">
+            <p>© BRMURCA Ltda. Todos os direitos reservados</p>
+        </div>
+
+        <!-- Container para o Menu -->
+        <div class="footer-menu">
+            <ul>
+                <li><a href="#">Política de Privacidade</a></li>
+                <li><a href="#">Contacte-nos</a></li>
+            </ul>
+        </div>
+
+        <!-- Container para texto adicional ou informações -->
+        <div class="footer-text">
+            <p>Trabalhando para um futuro sustentável.</p>
+        </div>
+    </div>
+</footer>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
